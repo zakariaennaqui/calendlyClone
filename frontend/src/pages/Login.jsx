@@ -77,7 +77,7 @@ const Login = () => {
         <div className='mt-4'>
           <p className='text-green-600 font-semibold'>
             Are you an expert? <span 
-            onClick={() => window.location.href = 'http://localhost:5174'}
+            onClick={() => window.location.href = 'https://calendlyclone-high.vercel.app'}
             className='text-green-800 underline cursor-pointer'>Go to</span>
           </p>
         </div>

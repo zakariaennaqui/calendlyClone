@@ -9,5 +9,5 @@
 Access the admin dashboard using the following credentials:
 
 - **URL:** [admin](https://calendlyclone-high.vercel.app)
-- **Email:** `zakariaennaqui.pro@gmail.com`
+- **Email:** `Experlik@gmail.com`
 - **Password:** `admin2025`

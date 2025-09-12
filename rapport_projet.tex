@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[french]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{float}
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -102,6 +103,12 @@ Ce rapport présente un système complet de réservation de rendez-vous dévelop
 
 \subsection{Portée du projet}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{diagrammes/use_case_diagram.png}
+    \caption{Diagramme de cas d'utilisation du système}
+\end{figure}
+
 Le système comprend trois interfaces principales :
 \begin{enumerate}
     \item Interface utilisateur (frontend)
@@ -112,6 +119,12 @@ Le système comprend trois interfaces principales :
 \section{Architecture du Système}
 
 \subsection{Vue d'ensemble}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{diagrammes/architecture_diagram.png}
+    \caption{Architecture générale du système}
+\end{figure}
 
 Le projet suit une architecture moderne en trois couches :
 
@@ -285,6 +298,16 @@ Le système intègre trois solutions de paiement :
 
 \section{Base de Données}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{diagrammes/class_diagram.png}
+    \caption{Diagramme de classes - Modèles de données}
+\end{figure}
+
+\subsection{Relations entre les entités}
+
+Le diagramme de classes ci-dessus illustre les principales entités du système et leurs relations. Les modèles principaux incluent les utilisateurs, les prestataires de services, les rendez-vous, les événements, et les codes promotionnels.
+
 \subsection{Modèles de Données}
 
 \subsubsection{Modèle Utilisateur}
@@ -449,6 +472,24 @@ GET & /api/admin/appointments & Tous les rendez-vous \\
 GET & /api/admin/dashboard & Tableau de bord admin \\
 \hline
 \end{longtable}
+
+\section{Processus Métier}
+
+\subsection{Processus de Réservation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{diagrammes/activity_diagram.png}
+    \caption{Diagramme d'activité - Processus de réservation}
+\end{figure}
+
+\subsection{Cycle de Vie des Rendez-vous}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{diagrammes/state_diagram.png}
+    \caption{Diagramme d'états - Cycle de vie d'un rendez-vous}
+\end{figure}
 
 \section{Sécurité}
 
@@ -689,6 +730,24 @@ Le projet a abouti à une plateforme complète et fonctionnelle offrant :
     \item Système de notifications efficace
     \item Évolutivité de la plateforme
 \end{itemize}
+
+\section{Interactions Système}
+
+\subsection{Séquence de Réservation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{diagrammes/sequence_reservation.png}
+    \caption{Diagramme de séquence - Réservation de rendez-vous}
+\end{figure}
+
+\subsection{Inscription des Prestataires}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{diagrammes/sequence_inscription_prestataire.png}
+    \caption{Diagramme de séquence - Inscription prestataire}
+\end{figure}
 
 \subsection{Impact et Valeur Ajoutée}
 

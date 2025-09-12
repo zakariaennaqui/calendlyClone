@@ -1,0 +1,55 @@
+@startuml
+!theme plain
+title Diagramme d'États - Cycle de Vie d'un Rendez-vous
+
+[*] --> Créé : Utilisateur fait une réservation
+
+state Créé {
+  Créé : - Créneau réservé
+  Créé : - En attente de paiement
+  Créé : - Notification envoyée
+}
+
+Créé --> Payé : Paiement réussi
+Créé --> Annulé : Annulation utilisateur/prestataire
+Créé --> Expiré : Délai de paiement dépassé
+
+state Payé {
+  Payé : - Paiement confirmé
+  Payé : - Rendez-vous confirmé
+  Payé : - Rappels programmés
+}
+
+Payé --> EnCours : Date/heure du rendez-vous
+Payé --> Annulé : Annulation avec remboursement
+
+state EnCours {
+  EnCours : - Rendez-vous en cours
+  EnCours : - Prestataire présent
+}
+
+EnCours --> Terminé : Prestataire marque comme terminé
+EnCours --> Annulé : Problème technique/absence
+
+state Terminé {
+  Terminé : - Service rendu
+  Terminé : - Paiement finalisé
+  Terminé : - Évaluation possible
+}
+
+state Annulé {
+  Annulé : - Créneau libéré
+  Annulé : - Remboursement si applicable
+  Annulé : - Notification envoyée
+}
+
+state Expiré {
+  Expiré : - Créneau libéré
+  Expiré : - Réservation supprimée
+}
+
+Annulé --> [*]
+Terminé --> [*]
+Expiré --> [*]
+
+@enduml

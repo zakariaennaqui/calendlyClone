@@ -1,0 +1,93 @@
+@startuml
+!theme plain
+title Architecture du Système
+
+!define RECTANGLE class
+
+package "Frontend (React.js)" {
+  RECTANGLE "Interface Utilisateur" as UI {
+    + Pages principales
+    + Composants réutilisables
+    + Gestion d'état
+    + Routing
+  }
+  
+  RECTANGLE "Interface Admin" as AdminUI {
+    + Dashboard administrateur
+    + Gestion prestataires
+    + Statistiques
+  }
+}
+
+package "Backend (Node.js/Express)" {
+  RECTANGLE "API REST" as API {
+    + Routes utilisateur
+    + Routes prestataire
+    + Routes admin
+    + Middleware auth
+  }
+  
+  RECTANGLE "Contrôleurs" as Controllers {
+    + UserController
+    + ServiceController
+    + AdminController
+    + EventController
+    + PromoController
+  }
+  
+  RECTANGLE "Modèles" as Models {
+    + User Model
+    + Service Model
+    + Appointment Model
+    + Event Model
+    + PromoCode Model
+  }
+}
+
+package "Services Externes" {
+  RECTANGLE "MongoDB" as DB {
+    + Base de données principale
+    + Collections
+    + Index
+  }
+  
+  RECTANGLE "Cloudinary" as Cloud {
+    + Stockage images
+    + Optimisation
+    + CDN
+  }
+  
+  RECTANGLE "Systèmes de Paiement" as Payment {
+    + Stripe
+    + Razorpay
+    + Payzone
+  }
+  
+  RECTANGLE "Service Email" as Email {
+    + Nodemailer
+    + SMTP
+    + Templates
+  }
+}
+
+package "Déploiement" {
+  RECTANGLE "Vercel" as Deploy {
+    + Hébergement frontend
+    + Hébergement backend
+    + CI/CD
+  }
+}
+
+' Relations
+UI --> API : "HTTP/HTTPS"
+AdminUI --> API : "HTTP/HTTPS"
+API --> Controllers : "Appels"
+Controllers --> Models : "Utilise"
+Models --> DB : "Mongoose ODM"
+Controllers --> Cloud : "Upload images"
+Controllers --> Payment : "Traitement paiements"
+Controllers --> Email : "Envoi notifications"
+Deploy --> UI : "Héberge"
+Deploy --> API : "Héberge"
+
+@enduml

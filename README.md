@@ -67,6 +67,8 @@
 
 ## Vue d ensemble
 
+![Stack Technologique](./md-assets/overview.png)
+
 **CalendlyClone** (rebaptise **Xperlik**) est une plateforme de reservation en ligne full-stack, inspiree de Calendly, developpee en **2025** lors d un stage d initiation. Elle permet a des prestataires de services de gerer leurs plannings, creneaux, evenements et codes promo, tandis que les utilisateurs peuvent reserver des rendez-vous, s inscrire a des evenements et effectuer des paiements en ligne via plusieurs passerelles.
 
 Le projet est structure en **trois applications distinctes** deployees independamment sur **Vercel** :

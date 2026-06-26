@@ -1,12 +1,10 @@
 ﻿<div align="center">
 
-<img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" href="https://experlik.ma" width="180" alt="Xperlik Logo"/>
+<img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" width="180" alt="Xperlik Logo"/>
 
 # Calendly Clone
 
 **Plateforme complete de reservation en ligne** - developpee dans le cadre d un **stage d initiation** chez **Xperlik**
-
-[![Xperlik](https://img.shields.io/badge/Xper-lik-1a1a2e?style=for-the-badge&logoColor=white)](https://experlik.ma)
 
 [![User](https://img.shields.io/badge/User-calendlyclone--chi.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-chi.vercel.app)
 [![Abonné](https://img.shields.io/badge/Abonné-calendlyclone--high.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-high.vercel.app)

@@ -8,13 +8,13 @@
 
 **Plateforme complete de reservation en ligne** - developpee dans le cadre d un **stage d initiation** chez **Xperlik**
 
-<a href="https://calendlyclone-high.vercel.app" target="_blank" rel="noopener noreferrer">
-  <img src="./md-assets/prestataire.png" width="100" height="100"  alt="..."/>
+<a href="https://calendlyclone-chi.vercel.app" target="_blank" rel="noopener noreferrer">
+  <img src="./md-assets/client.png" width="100" height="100"  alt="..."/>
 </a>
 <a href="https://calendlyclone-high.vercel.app" target="_blank" rel="noopener noreferrer">
   <img src="./md-assets/prestataire.png" width="100" height="100"  alt="..."/>
-</a>
-<br>
+</a><br>
+
 [![User](https://img.shields.io/badge/User-calendlyclone--chi.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-chi.vercel.app)
 [![Abonné](https://img.shields.io/badge/Abonné-calendlyclone--high.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-high.vercel.app)
 

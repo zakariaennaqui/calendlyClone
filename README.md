@@ -1,17 +1,13 @@
 ﻿<div align="center">
 
-<div style="background-color: #1a1a2e; display: inline-block; padding: 20px; border-radius: 12px;">
-  <img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" width="180" alt="Xperlik Logo"/>
-</div>
+<img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" width="180" alt="Xperlik Logo"/>
 
 # Calendly Clone — Xperlik
 
 **Plateforme complete de reservation en ligne** - developpee dans le cadre d un **stage d initiation** chez **Xperlik**
 
-[![Frontend](https://img.shields.io/badge/Frontend-calendlyclone--chi.vercel.app-2D6CDF?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-chi.vercel.app)
-[![Admin](https://img.shields.io/badge/Admin-calendlyclone--high.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-high.vercel.app)
-[![Backend](https://img.shields.io/badge/Backend-calendlyclone--back.vercel.app-EA580C?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-back.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-zakariaennaqui%2FcalenldyClone-181717?style=for-the-badge&logo=github)](https://github.com/zakariaennaqui/calendlyClone)
+[![User](https://img.shields.io/badge/Frontend-calendlyclone--chi.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-chi.vercel.app)
+[![Abonné](https://img.shields.io/badge/Admin-calendlyclone--high.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-high.vercel.app)
 
 </div>
 

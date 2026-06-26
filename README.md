@@ -13,20 +13,7 @@
 </a>
 <a href="https://calendlyclone-high.vercel.app" target="_blank" rel="noopener noreferrer">
   <img src="./md-assets/prestataire.png" width="100" height="100"  alt="..."/>
-</a><br>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="100" width="150"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" height="100" width="150"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg" height="100" width="100"/>
-<img src="https://avatars.githubusercontent.com/u/7713209?s=200&v=4" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Cloudinary_logo.svg" height="100" width="100"/>
+</a>
 
 </div>
 
@@ -39,6 +26,23 @@
 | **URL** | [calendlyclone-high.vercel.app](https://calendlyclone-high.vercel.app) |
 | **Email** | `Experlik@gmail.com` |
 | **Mot de passe** | `admin2025` |
+
+<div align="center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" height="75" width="75"/>
+<img src="https://images.seeklogo.com/logo-png/64/1/docker-icon-logo-png_seeklogo-643955.png" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" height="75" width="75"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg" height="75" width="75"/>
+<img src="https://avatars.githubusercontent.com/u/7713209?s=200&v=4" height="75" width="75"/>
+<img src="https://appexchange.salesforce.com/image_host/4400af24-7ce0-43bc-80d8-604ac3758fdb.png" height="75" width="75"/>
+
+</div>
 
 ---
 

@@ -1,6 +1,8 @@
 ﻿<div align="center">
 
-<img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" width="180" alt="Xperlik Logo"/>
+<a href="https://experlik.ma" target="_blank" rel="noopener noreferrer">
+  <img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" width="180" alt="Xperlik Logo"/>
+</a>
 
 # Calendly Clone
 

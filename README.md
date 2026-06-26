@@ -2,12 +2,12 @@
 
 <img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" width="180" alt="Xperlik Logo"/>
 
-# Calendly Clone — Xperlik
+# Calendly Clone
 
 **Plateforme complete de reservation en ligne** - developpee dans le cadre d un **stage d initiation** chez **Xperlik**
 
-[![User](https://img.shields.io/badge/Frontend-calendlyclone--chi.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-chi.vercel.app)
-[![Abonné](https://img.shields.io/badge/Admin-calendlyclone--high.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-high.vercel.app)
+[![User](https://img.shields.io/badge/User-calendlyclone--chi.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-chi.vercel.app)
+[![Abonné](https://img.shields.io/badge/Abonné-calendlyclone--high.vercel.app-16A34A?style=for-the-badge&logo=vercel&logoColor=white)](https://calendlyclone-high.vercel.app)
 
 </div>
 

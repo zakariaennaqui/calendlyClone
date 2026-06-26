@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<img src="./md-assets/Xperlik-Blanc-13.cfd20d44d84bc55c90ce.avif" width="180" alt="Xperlik Logo"/>
+<img src="./md-assets/Xperlink-Blanc-13.cfd20d44d84bc55c90ce.png" width="180" alt="Xperlik Logo"/>
 
 # Calendly Clone — Xperlik
 
@@ -15,7 +15,17 @@
 
 ---
 
-## Table des Matieres
+## Acces Admin
+
+| Champ | Valeur |
+|---|---|
+| **URL** | [calendlyclone-high.vercel.app](https://calendlyclone-high.vercel.app) |
+| **Email** | `Experlik@gmail.com` |
+| **Mot de passe** | `admin2025` |
+
+---
+
+## 
 
 - [Vue d ensemble](#vue-densemble)
 - [Fonctionnalites](#fonctionnalites)
@@ -31,8 +41,6 @@
 - [Diagrammes UML Supplementaires](#diagrammes-uml-supplementaires)
 - [Structure du Projet](#structure-du-projet)
 - [Installation et Lancement](#installation-et-lancement)
-- [Acces Admin](#acces-admin)
-- [Auteur](#auteur)
 
 ---
 
@@ -535,17 +543,7 @@ npm run dev
 
 ---
 
-## Acces Admin
-
-| Champ | Valeur |
-|---|---|
-| **URL** | [calendlyclone-high.vercel.app](https://calendlyclone-high.vercel.app) |
-| **Email** | `Experlik@gmail.com` |
-| **Mot de passe** | `admin2025` |
-
----
-
-## Auteur
+## 
 
 <div align="center">
 
